@@ -1,0 +1,49 @@
+<%- include('./partials/head')%>
+  <body>
+    <header>
+      <h1>Welcome to <%= websiteName %></h1>
+      <h2>Choose your own nest!</h2>
+    </header>
+    <%- include('./partials/navbar')%>
+      <main>
+    <section>
+      <h2>Residental Real Estate</h2>
+      <p id="desc"> When you put your most valuable asset in someone else's hands, it should be someone you can trust. Home Sweet Home Real Estate's
+      residential sales team is ready to provide the guidance and expertise that only a team of full-time agents with a long
+      history in Staten Island real estate can offer.</p>
+      
+      <% allHouses.forEach((house) => { %>
+        <% if(!house.sold) { %>
+      <div class="houseCardActive card">
+        <% } else { %>
+      <div class="houseCardSold card">
+      <% } %>
+        <h2>
+          <%=house.adress%>
+        </h2>
+        <p>
+          Beds: <%=house.beds%> 
+          Baths: <%=house.baths%> 
+          sqFeet: <%=house.sqFt%> 
+        </p> <br>
+        <h3>Price: $<%=house.price%></h3>
+        <% if (!house.sold) {%> 
+        <button>BUY NOW</button>
+        <% } else { %> 
+          <button id="sold">SOLD</button>
+          <% } %> 
+        <img src="<%=house.picture%>" alt="pic">
+        <p id="text"><%=house.description %> </p>
+      </div>
+      <% }) %>
+    </section>
+
+      </main>
+
+      <footer>
+        <p>Privacy Policy & TOS | Sitemap | Accessibility <br>
+        <div id="copy">Made in Sultans room, AZ by your friends at Noble Technologies, Inc. Copyright 2022. All Rights Reserved.</div></p>
+      </footer>
+  </body>
+
+  </html>

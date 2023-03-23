@@ -1,0 +1,42 @@
+[
+  {
+    "adress": "201 City Boulevard",
+    "beds": 5,
+    "baths": 5,
+    "sqFt": "4,480",
+    "price": "1,350,000",
+    "sold": true,
+    "picture": "./img/image2.png",
+    "description": "Absolutely stunning, Large Colonial Home (4.480 sq. Ft.) completely renovated in 2007. The property sits on a large corner lot in the prime location on the top of Sunset Hill and offers privacy and charm. This one-of-a-kind home has 5 bedrooms 5 bathrooms, hardwood floors throughout, 10-zone heating and central A/C, and a fully finished basement with a full bathroom."
+  },
+  {
+    "adress": "660 Oakland Avenue",
+    "beds": 4,
+    "baths": 4,
+    "sqFt": "4,500",
+    "price": "1,900,000",
+    "sold": false,
+    "picture": "./img/image.png",
+    "description": "Is it your dream to live in a castle? You will certainly feel like royalty in this beautifully updated 4 bedroom, 3.5 bath brick center hall colonial in desirable West Brighton. With 4500 sq ft of amazing living space this home has everything you want. Enter the home into the 2-story foyer with marble flooring, and beautiful chandelier. "
+  },
+  {
+    "adress": "32 Coughlan Avenue",
+    "beds": 4,
+    "baths": 4,
+    "sqFt": "2,160",
+    "price": "1,149,000",
+    "sold": false,
+    "picture": "./img/image3.png",
+    "description": "Luxurious. Elegant. Custom built colonial. This beautiful home was built by the owner in 2019. Its detail and precision is uncanny. The first floor features an open concept, ample natural light through the Pella windows and sliding door, radiant heat, an upgraded two-tone custom kitchen with quartz countertops and space gray appliances."
+  },
+  {
+    "adress": "700 Bard Avenue",
+    "beds": 3,
+    "baths": 2,
+    "sqFt": "1,144",
+    "price": "679,000",
+    "sold": true,
+    "picture": "./img/image1.png",
+    "description": "Pull out your family recipe book and try your hand at making long forgotten dishes in the kitchen lined with white cabinetry and tile flooring - ideal for meal prepping or hosting dinner parties. Work from home or have a passion for reading? The former porch has since been enclosed and created the most magical reading room or home office with stone floors and panoramic yard views. "
+  }
+]
